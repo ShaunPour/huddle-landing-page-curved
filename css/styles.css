@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3em;
+    margin-bottom: 25vh;
+}
+
+.header-btn {
+    border: 1px solid #FF52C1;
+    color: #FF52C1;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0.75em 2em 0.75em 2em;
+    position: relative;
+    left: 90vw;
+    top: 1vh;
+}
