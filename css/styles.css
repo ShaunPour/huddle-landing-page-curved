@@ -176,7 +176,7 @@ footer {
 
 .footer-top {
     position: relative;
-    top: 10.2vh;
+    top: 16.6vh;
 }
 
 .footer-top-desktop {
@@ -274,6 +274,10 @@ form {
     margin-right: 15px;
 }
 
+.fa-square-facebook:hover,.fa-square-instagram:hover,.fa-square-twitter:hover {
+    color: #00C7FA;
+}
+
 .fa-square-facebook,.fa-square-instagram,.fa-square-twitter {
     font-size: 30px;
 }
@@ -333,5 +337,89 @@ footer {
 
     .footer-lower {
         margin-top: 6em;
+    }
+}
+
+@media (min-width: 1440px) {
+    button:hover {
+        cursor: pointer;
+    }
+
+    .logo {
+        margin-right: 55vw;
+    }
+
+    header {
+        position: relative;
+        right: 7em;
+    }
+
+    .title-txt {
+        width: 35%;
+        margin-bottom: 3em;
+    }
+
+    .header-btn {
+        position: relative;
+        left: 15vw;
+    }
+
+    .main-btn:hover {
+        background-color: #FF8ED7;
+    }
+
+    .main-img {
+        width: 45vw;
+    }
+
+    .communities {
+        left: -20vw;
+    }
+
+    .messages {
+        left: 15vw;
+    }
+
+    .grow-img,.flowing-img,.users-img,.main-img {
+        width: 40%;
+    }
+
+    .grow-lower, .flowing-lower, .users-lower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+    
+    .grow,.users {
+        flex-direction: row-reverse;
+    }
+    
+    .flowing {
+        flex-direction: row;
+    }
+    
+    .grow,.users,.flowing {
+        justify-content: space-evenly;
+    }
+
+    .community-build-title {
+            color: #00252E;
+            font-family: Poppins;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .footer-top-desktop {
+        width: 114.6%;
+        right: 6em;
+        top: 7em;
     }
 }
