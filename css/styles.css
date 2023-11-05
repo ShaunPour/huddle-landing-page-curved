@@ -364,7 +364,7 @@ footer {
         left: 15vw;
     }
 
-    .main-btn:hover {
+    .main-btn:hover,.community-build-btn:hover,.subscribe-form:hover {
         background-color: #FF8ED7;
     }
 
