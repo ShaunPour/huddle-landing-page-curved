@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ShaunPour/huddle-landing-page-curved)
-- Live Site URL: [Add live site URL here](https://ShaunPour.github.io/huddle-landing-page-curved)
+- Solution URL: [Solution URL](https://github.com/ShaunPour/huddle-landing-page-curved)
+- Live Site URL: [Live Site URL](https://ShaunPour.github.io/huddle-landing-page-curved)
 
 ## My process
 
